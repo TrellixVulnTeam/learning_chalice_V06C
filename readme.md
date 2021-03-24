@@ -18,6 +18,6 @@ python -m pip \
 python -m venv \
 python -m pip install chalice \
 ~/.aws/config (to store aws credentials and region) \
-httpie (to send http requests)
+httpie (to send the get request)
 
 
