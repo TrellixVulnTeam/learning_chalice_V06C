@@ -9,10 +9,15 @@ AWS Chalice allows you to quickly create and deploy applications that use Amazon
 [Chalice Quickstart and Tutorial](https://chalice.readthedocs.io/en/stable/quickstart.html) \
 [Chalice Homepage](https://chalice.readthedocs.io/en/stable/)\
 [Create a Cloud Hosted Python API Server - Using Python Chalice and AWS Lambda
-](https://www.youtube.com/watch?v=r60-90Stb2o)
+](https://www.youtube.com/watch?v=r60-90Stb2o) \
+[httpie](https://github.com/httpie/httpie#windows-etc)
 
 ## Requirements
-python3 \
-python3 -m pip \
-python3 -m venv \
+python \
+python -m pip \
+python -m venv \
+python -m pip install chalice \
+~/.aws/config 
+httpie (to send http requests)
+
 
