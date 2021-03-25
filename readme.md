@@ -6,6 +6,7 @@ AWS Chalice allows you to quickly create and deploy applications that use Amazon
 - Automatic IAM policy generation
 
 ## Documentation
+[Chalice Github](https://github.com/aws/chalice)
 [Chalice Quickstart and Tutorial](https://chalice.readthedocs.io/en/stable/quickstart.html) \
 [Chalice Homepage](https://chalice.readthedocs.io/en/stable/)\
 [Create a Cloud Hosted Python API Server - Using Python Chalice and AWS Lambda
@@ -20,4 +21,30 @@ python -m pip install chalice \
 ~/.aws/config (to store aws credentials and region) \
 httpie (to send the get request)
 
+## Set up for Windows
 
+(Install Python)[https://www.python.org/]
+
+Install pip 
+```
+py get-pip.py
+```
+
+Make and change directory for project 
+```
+mkdir project ; cd project 
+```
+
+Start up a virtual environment
+```
+python -m venv . 
+```
+
+```
+python -m pip install --upgrade pip setuptools
+```
+
+
+```
+python -m pip install --upgrade httpie
+```
